@@ -33,13 +33,19 @@ body {
         max-width: 750px;
         
    }
+   .foot div {
+       margin: 0 auto;
+   }
+   
    
 }
 @media (max-width: 767px) {
     .maincontainer {
         max-width: none;
    }
-   
+   .foot div {
+    margin: 0 auto;
+}
 }
 
 
@@ -140,9 +146,7 @@ p {
 .cont4 p {
     padding-top: 3%;
 }
-.foot {
-    background-color :#1e403b ;
-}
+
 a {
     
     text-decoration: none;
@@ -270,11 +274,14 @@ p {
     height: 50px;
     line-height: 120%;
     margin: 0 auto;
-    padding-bottom: 2%;
+    
+    
     
 }
 
+
 .offers {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -418,6 +425,7 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     height: 100px;
+    background-color :#1e403b ;
 }
 .allrul {
     padding-top: 3%;

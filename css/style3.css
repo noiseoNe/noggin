@@ -17,13 +17,32 @@ body {
     margin: 0 auto ;
 }
 .maincont {
-    width: 1000px;
-    
-    margin-left: 200px;
-    margin-top: 80px;
-
-    
-    
+    width: 75%;
+   margin: 0 auto; 
+   max-width: 1400px; 
+}
+@media (max-width: 1400px) {
+    .maincont {
+        max-width: 1400px;
+   }
+}
+@media (max-width: 1200px) {
+    .maincont {
+        max-width: 970px;
+   }
+}
+@media (max-width: 992px) {
+    .maincont {
+        max-width: 750px;
+        
+   }
+   
+}
+@media (max-width: 767px) {
+    .maincont {
+        max-width: none;
+   }
+   
 }
 .maincont a {
     text-decoration: none;
@@ -66,16 +85,19 @@ a:hover {
 
 
 
-footer {
-    background-color :#1e403b ;
-    margin-top: 70px;
+.foot div {
+    margin: 0 auto;
 }
+
 .foot {
-    display: flex;
-    flex-direction: row ;
-    justify-content: space-between;
-    height: 100px;
-}
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100px;
+        background-color :#1e403b ;
+    }
+
 .foot a {
     color: white;
     font-size: 20px;
@@ -83,16 +105,16 @@ footer {
     text-decoration: none;
 }
 .allrul {
-    padding-top: 40px;
-    padding-left: 60px;
+    padding-top: 3%;
+    padding-left: 5%;
 }
 .privacy {
-    padding-top: 40px;
-    padding-left: 350px;
+    padding-top: 3%;
+    padding-left: 15%;
 }
 .terms {
-    padding-top: 40px;
-    padding-right: 150px;
+    padding-top: 3%;
+    padding-right: 3%;
 }
 .overbut {
     display: block;
