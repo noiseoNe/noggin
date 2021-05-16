@@ -1,0 +1,53 @@
+.maincont {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.firstp {
+    font-size: 24px;
+    
+}
+.nextp {
+    font-size: 20px;
+    color: gray;
+}
+.content {
+    width: 1000px;
+    margin-top: 100px;
+    line-height: 200%;
+    margin-right: 100px;
+}
+.image {
+    margin-top: 70px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.start {
+    background-color: rgb(30, 64, 59);
+    color: white;
+    cursor: pointer;
+    
+    font-size: 24px;
+    width: 93px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: bold;
+}
+span {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.start:hover {
+    background-color: rgb(78, 129, 122);
+}
+.clock {
+    font-size: 14px;
+}

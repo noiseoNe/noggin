@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #f6f8ea;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#333;
+}
+.menu {
+    display: flex;
+    flex-direction:column;
+    margin: 50px 0 80px;
+    
+}
+.logotype {
+    margin: 0 auto ;
+}
+.maincont {
+    width: 1000px;
+    
+    margin-left: 200px;
+    margin-top: 80px;
+
+    
+    
+}
+.maincont a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Aesthet Nova';
+    font-size: 38px;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-right: 40px;
+}
+h4 {
+    font-family: 'Aesthet Nova';
+    font-size: 20px;
+    margin-top: 60px;
+}
+p {
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    line-height: 150%;
+    
+}
+ul {
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color :#1e403b ;
+    margin-top: 70px;
+}
+.foot {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    height: 100px;
+}
+.foot a {
+    color: white;
+    font-size: 20px;
+    font-family:'Playfair Display', serif;
+    text-decoration: none;
+}
+.allrul {
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.privacy {
+    padding-top: 40px;
+    padding-left: 350px;
+}
+.terms {
+    padding-top: 40px;
+    padding-right: 150px;
+}
+.overbut {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    z-index: 99999;
+     
+ }
