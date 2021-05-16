@@ -10,7 +10,44 @@ body {
     font-size: 14px;
     line-height: 20px;
     color:#333;
+    overflow: auto;
+    
 }
+.maincontainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+@media (max-width: 1400px) {
+    .maincontainer {
+        max-width: 1400px;
+   }
+}
+@media (max-width: 1200px) {
+    .maincontainer {
+        max-width: 970px;
+   }
+}
+@media (max-width: 992px) {
+    .maincontainer {
+        max-width: 750px;
+        
+   }
+   
+}
+@media (max-width: 767px) {
+    .maincontainer {
+        max-width: none;
+   }
+   
+}
+
+
+
+
+
+
+
 p {
     font-family: 'Newsreader', serif;
 }
@@ -30,6 +67,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     margin: 0px 0px 150px;
+    
 }
 .cont1 div {
     margin: 0 auto;
@@ -38,6 +76,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .cont2 div {
     margin: 0 auto;
@@ -46,6 +85,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .cont3 div {
     margin: 0 auto;
@@ -54,6 +94,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .cont4 div {
     margin: 0 auto;
@@ -65,7 +106,7 @@ p {
     
 }
 
-.sec1 {
+.cont2 {
     background-color :#f6f8ea ;
     
 }
@@ -76,11 +117,10 @@ p {
     background-color :#f6f8ea;
     border: none ;
     border-radius: 3px;
-    width: 940px;
-    height: 140px;
-   
-
-
+    width: 70% ;
+    padding-bottom: 1%;
+    line-height: 180%;
+    
 }
 .mail h3 {
     text-align: center;
@@ -88,13 +128,16 @@ p {
 .mail p {
     
     text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
-.sec3 {
+.cont4 {
     background-color :#8295ea;
-    margin-top: 170px;
+    margin-top: 10%;
+    padding-bottom: 10%;
 }
-footer {
+.foot {
     background-color :#1e403b ;
 }
 a {
@@ -116,10 +159,10 @@ h1 {
     font-size: 80px;
     font-family: 'Aesthet Nova' ;
     line-height: 95%;
-    margin-top : 0px;
-    margin-bottom: 20px;
+    padding-bottom: 2%;;
     color: #1e403b;
-    width: 800px;
+    width: 70%;
+    margin: 0 auto;
     
 }
 h2 {
@@ -138,11 +181,13 @@ p {
    text-align: center;  
 }
 .par1 p {
-    margin: 0px 20px 40px ;
+    
     font-size: 20px;
     text-align: center;
     line-height: 125%;
-    width: 700px;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 2%;
     
 }
 .but_join {
@@ -170,12 +215,13 @@ p {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-   
-    width: 860px;
-    padding-bottom: 90px;
+    margin :0 auto;
+    width: 70%;
+    padding-bottom: 3%;
 }
 .images div {
-  margin: 5px;
+  margin: 1%;
+  flex: 0 1 20%;
 }
 .images img {
     width: 224px;
@@ -197,7 +243,7 @@ p {
     padding-top: -50px
 }
 .par2 {
-    width: 700px;
+    width: 60%;
     font-size: 20px;
     
 }
@@ -216,16 +262,21 @@ p {
 }
 .par3 p {
     font-size: 20px;
-    width: 700px;
+    width: 55%;
     height: 50px;
     line-height: 120%;
-    margin-top: -5px;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    
 }
+
 .offers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
+    flex-wrap: wrap;
+    width: 75%;
+    padding-top: 2%;
 }
 .offers div {
     
@@ -279,7 +330,7 @@ p {
 .joinfree {
     font-size: 20px;
     text-align: center;
-    width: 230px;
+    width: 85%;
     padding: 20px 10px 10px 10px;
     margin: 20px 20px 20px 20px ;
     background-color: #ffc55c;
@@ -293,7 +344,7 @@ p {
 .coming {
     font-size: 20px;
     text-align: center;
-    width: 230px;
+    width: 85%;
     padding: 10px 10px 10px 10px;
     margin: 40px 20px 20px 20px ;
     
@@ -307,7 +358,7 @@ p {
 .coming2 {
     font-size: 20px;
     text-align: center;
-    width: 230px;
+    width: 85%;
     padding: 10px 10px 10px 10px;
     margin: 80px 20px 20px 20px ;
     
@@ -336,7 +387,7 @@ p {
 .par4 {
     color: white;
     font-size: 20px;
-    width: 650px;
+    width: 50%;
     
 }
 .par4 p {
@@ -360,6 +411,7 @@ p {
     display: flex;
     flex-direction: row ;
     justify-content: space-between;
+    flex-wrap: wrap;
     height: 100px;
 }
 .allrul {
