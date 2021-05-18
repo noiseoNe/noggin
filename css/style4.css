@@ -3,6 +3,7 @@
     flex-direction: row ;
     justify-content: space-between;
     min-width: 1400px;
+    margin: 0 auto;
     
     
     
@@ -31,10 +32,7 @@ h1 {
 .image {
     margin-top: 70px;
 }
-.imag1 {
-    width: 120%;
-    height: 100%;
-}
+
 
 body {
     font-family: 'Nunito', sans-serif;
