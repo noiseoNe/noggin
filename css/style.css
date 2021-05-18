@@ -33,9 +33,24 @@ body {
         max-width: 750px;
         
    }
+   .par3 {
+       height: 150px;
+       
+   }
+   .buttjoin1 {
+       padding-left: 25px;
+       padding-right: 15px;
+
+   }
+   .buttlearn {
+       padding-right:35px ;
+       ;
+   }
+   
    .foot div {
        margin: 0 auto;
    }
+   
    
    
 }
@@ -46,6 +61,20 @@ body {
    .foot div {
     margin: 0 auto;
 }
+.par3 {
+    height: 150px;
+    
+}
+.buttjoin1 {
+    padding-left: 25px;
+    padding-right: 15px;
+
+}
+.buttlearn {
+    padding-right:35px ;
+    ;
+}
+
 }
 
 
@@ -278,6 +307,7 @@ p {
     
     
 }
+
 
 
 .offers {
