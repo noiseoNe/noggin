@@ -73,9 +73,6 @@ ul {
     font-size: 20px;
     line-height: 150%;
 }
-a:hover {
-    text-decoration: underline;
-}
 
 
 
@@ -104,6 +101,9 @@ a:hover {
     font-size: 20px;
     font-family:'Playfair Display', serif;
     text-decoration: none;
+}
+.foot a:hover {
+    text-decoration: underline;
 }
 .allrul {
     padding-top: 3%;
