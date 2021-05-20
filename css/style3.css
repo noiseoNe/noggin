@@ -16,59 +16,61 @@ body {
 .logotype {
     margin: 0 auto ;
 }
-.maincont {
+.maincontainer {
     width: 75%;
    margin: 0 auto; 
    max-width: 1400px; 
 }
 @media (max-width: 1400px) {
-    .maincont {
+    .maincontainer {
         max-width: 1400px;
    }
 }
 @media (max-width: 1200px) {
-    .maincont {
+    .maincontainer {
         max-width: 970px;
    }
 }
 @media (max-width: 992px) {
-    .maincont {
+    .maincontainer {
         max-width: 750px;
         
    }
    
 }
 @media (max-width: 767px) {
-    .maincont {
+    .maincontainer {
         max-width: none;
    }
    
 }
-.maincont a {
+.maincontainer a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
-h1 {
+.h1big {
     font-family: 'Aesthet Nova';
+    text-align: left;
+    margin-bottom: 5%;
+    
+}
+.h1big h1 {
     font-size: 38px;
     line-height: 120%;
-    text-align: left;
-    margin-bottom: 60px;
-    margin-right: 40px;
 }
-h4 {
+.forh4 {
     font-family: 'Aesthet Nova';
     font-size: 20px;
-    margin-top: 60px;
+    margin-top: 5%;
 }
-p {
+.forparagraph {
     font-family: 'Newsreader', serif;
     font-size: 20px;
     line-height: 150%;
     
 }
-ul {
+.forUl {
     font-family: 'Newsreader', serif;
     font-size: 20px;
     line-height: 150%;
@@ -82,11 +84,11 @@ ul {
 
 
 
-.foot div {
+.footer__green div {
     margin: 0 auto;
 }
 
-.foot {
+.footer__green {
         margin-top: 4%;
         display: flex;
         flex-direction: row ;
@@ -96,13 +98,13 @@ ul {
         background-color :#1e403b ;
     }
 
-.foot a {
+.footer__green a {
     color: white;
     font-size: 20px;
     font-family:'Playfair Display', serif;
     text-decoration: none;
 }
-.foot a:hover {
+.footer__green a:hover {
     text-decoration: underline;
 }
 .allrul {
@@ -117,7 +119,7 @@ ul {
     padding-top: 3%;
     padding-right: 3%;
 }
-.overbut {
+.overbutton {
     display: block;
     width: 60px;
     height: 60px;
