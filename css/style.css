@@ -365,19 +365,17 @@ p {
 }
 
 .containerWhyNoggin__images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin :0 auto;
-    width: 70%;
-    padding-bottom: 3%;
-}
-.containerWhyNoggin__images div {
-  margin: 1%;
-  flex: 0 1 20%;
-  width: 250px;
-}
+
+    width: 60%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 60px;
+  }
+  
+    
+
+
 .containerWhyNoggin__images img {
     width: 224px;
     height: 224px;
