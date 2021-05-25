@@ -25,6 +25,18 @@ body {
    .containerWithNotion__paragraph {
        width: 50%;
    }
+   .containerPricing__offers {
+       width: 75%; 
+   }
+   .containerPricing__paragraph p {
+       width: 55%;
+   }
+   .containerPricing__mail {
+       width: 70%;
+   }
+   .containerReadyTo__paragraph {
+       width: 50%;
+   }
 }
 @media (max-width: 1200px) {
     .maincontainer {
@@ -33,6 +45,18 @@ body {
    .containerWithNotion__bigh1 h1 {
     font-size: 76px;
 
+}
+.containerReadyTo__paragraph {
+    width: 100%;
+}
+.containerPricing__mail {
+    width: 100%;
+}
+.containerPricing__offers {
+    width: 100%; 
+}
+.containerPricing__paragraph p {
+    width: 100%;
 }
 .containerWithNotion__paragraph {
     width: 100%;
@@ -66,9 +90,7 @@ body {
     font-size: 73px;
 
 }
-.containerWithNotion__paragraph {
-    width: 100%;
-}
+
    
    
 }
@@ -112,9 +134,6 @@ body {
     font-size: 67px;
    
 
-}
-.containerWithNotion__paragraph {
-    width: 100%;
 }
 
 
@@ -164,9 +183,7 @@ body {
     font-size: 63px;
 
 }
-.containerWithNotion__paragraph {
-    width: 100%;
-}
+
 
 }
 
@@ -251,7 +268,7 @@ p {
     background-color :#f6f8ea;
     border: none ;
     border-radius: 3px;
-    width: 70% ;
+    
     padding-bottom: 1%;
     line-height: 180%;
     
@@ -401,7 +418,7 @@ p {
 }
 .containerPricing__paragraph p {
     font-size: 20px;
-    width: 55%;
+    
     line-height: 120%;
     margin: 0 auto;
     
@@ -417,7 +434,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 75%;
+    
     padding-top: 2%;
 }
 .containerPricing__offers div {
@@ -513,7 +530,7 @@ p {
 .containerReadyTo__paragraph {
     color: white;
     font-size: 20px;
-    width: 50%;
+    
     
 }
 .containerReadyTo__paragraph p {
