@@ -22,6 +22,9 @@ body {
     .maincontainer {
         max-width: 1400px;
    }
+   .containerWithNotion__paragraph {
+       width: 50%;
+   }
 }
 @media (max-width: 1200px) {
     .maincontainer {
@@ -31,16 +34,17 @@ body {
     font-size: 76px;
 
 }
+.containerWithNotion__paragraph {
+    width: 100%;
 }
+}
+
 @media (max-width: 992px) {
     .maincontainer {
         max-width: 750px;
         
    }
-   .containerPricing__paragraph {
-       height: 150px;
-       
-   }
+   
    
    .containerWithNotion__buttons-join {
        padding-left: 25px;
@@ -55,11 +59,16 @@ body {
    .footer__green div {
        margin: 0 auto;
    }
+   .containerWithNotion__bigh1 {
+       width: 100%;
+   }
    .containerWithNotion__bigh1 h1 {
     font-size: 73px;
 
 }
-   
+.containerWithNotion__paragraph {
+    width: 100%;
+}
    
    
 }
@@ -70,10 +79,7 @@ body {
    .footer__green div {
     margin: 0 auto;
 }
-.containerPricing__paragraph {
-    height: 200px;
-    
-}
+
 .containerWithNotion__buttons {
     flex-direction: column;
     flex-wrap: wrap;
@@ -104,8 +110,13 @@ body {
 
 .containerWithNotion__bigh1 h1 {
     font-size: 67px;
+   
 
 }
+.containerWithNotion__paragraph {
+    width: 100%;
+}
+
 
 
 }
@@ -118,10 +129,8 @@ body {
    .footer__green div {
     margin: 0 auto;
 }
-.containerPricing__paragraph {
-    height: 200px;
-    
-}
+
+
 .containerWithNotion__buttons {
     flex-direction: column;
     flex-wrap: wrap;
@@ -150,13 +159,13 @@ body {
 }
 
 
-.containerWithNotion__bigh1 h1 {
-    font-size: 67px;
 
-}
 .containerWithNotion__bigh1 h1 {
     font-size: 63px;
 
+}
+.containerWithNotion__paragraph {
+    width: 100%;
 }
 
 }
@@ -191,6 +200,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     margin: 0px 0px 150px;
+    
     
 }
 .containerWithNotion div {
@@ -306,16 +316,16 @@ p {
    
    text-align: center;  
 }
-.containerWithNotion__paragraph p {
+.containerWithNotion__paragraph {
     
+    
+    padding-bottom: 2%;
     font-size: 20px;
     text-align: center;
     line-height: 125%;
-    width: 50%;
-    margin: 0 auto;
-    padding-bottom: 2%;
-    
 }
+
+
 .containerWithNotion__buttons-button-join {
     font-size: 20px ;
     background-color: #ffc55c ;
@@ -392,7 +402,6 @@ p {
 .containerPricing__paragraph p {
     font-size: 20px;
     width: 55%;
-    height: 50px;
     line-height: 120%;
     margin: 0 auto;
     
