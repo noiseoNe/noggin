@@ -581,19 +581,19 @@ p {
  a:hover {
      text-decoration: underline;
  }
-.containerReadyTo__buttons-button-join:active {
+.containerReadyTo__buttons-button-join:hover {
     background-color: #bd9752;
 }
-.containerWithNotion__buttons-button-join:active {
+.containerWithNotion__buttons-button-join:hover {
     background-color: #bd9752; 
 }
-.containerWithNotion__buttons-button-learn:active {
+.containerWithNotion__buttons-button-learn:hover {
     background-color: #cfcdcd ;
 }
-.containerPricing__button-join:active {
+.containerPricing__button-join:hover {
     background-color: #bd9752; 
 }
-.containerPricing__button-coming:active {
+.containerPricing__button-coming:hover {
     background-color: #cfcdcd ;
 }
 

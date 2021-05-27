@@ -1,0 +1,59 @@
+.modal__window {
+    background-color: #ffc45c;
+    font-family: inherit;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    position: fixed;
+    left: 500px;
+    bottom: 100px;
+    border-radius: 4px;
+    padding: 30px;
+    z-index: 150;
+    visibility: hidden;     
+}
+.incorrect {
+    width: 300px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    margin-top: -30px;
+    visibility: hidden;
+}
+
+.filter {
+    background-color: rgba(0, 0, 0, 0.87);
+    position: fixed ;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+}
+.submit__button {
+    background-color: rgb(30, 64, 59);
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    width: 93px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: bold;
+}
+.InputStyle {
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 16px;
+}
+.commentsArea {
+    width: 250px;
+    height: 100px;
+    border-radius: 4px;
+}
