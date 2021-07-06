@@ -1,110 +1,95 @@
-
 .maincontainer {
-    display: flex;
-    flex-direction: row ;
-    justify-content: space-between;
-    margin-top: 10%;
-    max-width: 1400px;
-    flex: 0 1 50%;
-     
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+  max-width: 1400px;
+  flex: 0 1 50%;
 }
 .maincontainer div {
-    
-    margin: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
 }
 @media (max-width: 1400px) {
-    .maincontainer {
-        max-width: 1400px;
-        
-   }
+  .maincontainer {
+    max-width: 1400px;
+  }
 }
 @media (max-width: 1200px) {
-    .maincontainer {
-        max-width: 970px;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        
-   }
+  .maincontainer {
+    max-width: 970px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 992px) {
-    .maincontainer {
-        max-width: 750px;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        
-   }
-   
+  .maincontainer {
+    max-width: 750px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 767px) {
-    .maincontainer {
-        max-width: 400px;
-        flex-wrap: wrap;
-        margin :0 auto;
-       
-   }
-   
+  .maincontainer {
+    max-width: 400px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
 }
-@media (max-width:320px) {
-    .maincontainer {
-        max-width: none;
-        flex-wrap: wrap;
-        margin:0 auto;
-        
-    }
-    
+@media (max-width: 320px) {
+  .maincontainer {
+    max-width: none;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
 }
 h1 {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 .firstp {
-    font-size: 24px;
-    
+  font-size: 24px;
 }
 .nextp {
-    font-size: 20px;
-    color: gray;
+  font-size: 20px;
+  color: gray;
 }
 .content {
-    width: 90%;    
-    line-height: 200%;
-    
+  width: 90%;
+  line-height: 200%;
 }
 .image {
-    width: 90%;
-    
+  width: 90%;
 }
 .imag1 {
-    width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
-
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
 }
 .start {
-    background-color: rgb(30, 64, 59);
-    color: white;
-    cursor: pointer;
-    
-    font-size: 24px;
-    width: 93px;
-    height: 48px;
-    border: 1px solid;
-    border-radius: 4px;
-    font-family: inherit;
-    font-weight: bold;
+  background-color: rgb(30, 64, 59);
+  color: white;
+  cursor: pointer;
+
+  font-size: 24px;
+  width: 93px;
+  height: 48px;
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: bold;
 }
 span {
-    font-size: 12px;
-    margin-left: 10px;
+  font-size: 12px;
+  margin-left: 10px;
 }
 .start:hover {
-    background-color: rgb(78, 129, 122);
+  background-color: rgb(78, 129, 122);
 }
 .clock {
-    font-size: 14px;
-    margin-top: -3px;
+  font-size: 14px;
+  margin-top: -3px;
 }

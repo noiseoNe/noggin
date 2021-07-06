@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'Aesthet Nova';
-    src: url('AesthetNova-Medium.woff2') format('woff2'),
-        url('AesthetNova-Medium.woff') format('woff')
-        url('AesthetNova-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Aesthet Nova";
+  src: url("AesthetNova-Medium.woff2") format("woff2"),
+    url("AesthetNova-Medium.woff") format("woff") url("AesthetNova-Medium.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
